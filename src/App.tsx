@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import AddUser from './AddUser';
-import UsersList from './UsersList';
+import AddUser from './Components/AddUser';
+import UsersList from './Components/UsersList';
 
 type UserType = {
   username: string;

@@ -1,5 +1,5 @@
-import { UsersListType } from './App';
-import Card from './Card';
+import { UsersListType } from '../App';
+import Card from '../UI/Card';
 import classes from './UsersList.module.css';
 
 type UsersListTypeProps = {

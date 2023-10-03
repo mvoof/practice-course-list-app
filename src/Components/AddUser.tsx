@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import classes from './AddUser.module.css';
-import Button from './Button';
-import Card from './Card';
-import ErrorModal from './ErrorModal';
+import Button from '../UI/Button';
+import Card from '../UI/Card';
+import ErrorModal from '../UI/ErrorModal';
 
 type AddUserTypeProps = {
   onAddUser: (enteredUsername: string, enteredAge: string) => void;
